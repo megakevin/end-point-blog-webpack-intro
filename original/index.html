@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatic Calculator</title>
+</head>
+<body>
+
+    <h1>Automatic Calculator</h1>
+
+    <h2>Setup</h2>
+
+    <table>
+        <tr>
+            <th>Operand 1</th>
+            <th>Operand 2</th>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="number" name="operand_1" id="operand_1">
+            </td>
+            <td>
+                <input type="number" name="operand_2" id="operand_2">
+            </td>
+            <td>
+                <button id="run_operations">Calculate!</button>
+            </td>
+        </tr>
+    </table>
+
+    <h2>Results</h2>
+
+    <table>
+        <tr>
+            <th>Operation</th>
+            <th>Result</th>
+        </tr>
+        <tr>
+            <td>Addition</td>
+            <td>
+                <input type="number" name="addition_result" id="addition_result" readonly>
+            </td>
+        </tr>
+        <tr>
+            <td>Substraction</td>
+            <td>
+                <input type="number" name="substraction_result" id="substraction_result" readonly>
+            </td>
+        </tr>
+        <tr>
+            <td>Multiplication</td>
+            <td>
+                <input type="number" name="multiplication_result" id="multiplication_result" readonly>
+            </td>
+        </tr>
+        <tr>
+            <td>Division</td>
+            <td>
+                <input type="number" name="division_result" id="division_result" readonly>
+            </td>
+        </tr>
+    </table>
+
+    <script src="js/calculator/operations/operation.js"></script>
+    <script src="js/calculator/operations/addition.js"></script>
+    <script src="js/calculator/operations/substraction.js"></script>
+    <script src="js/calculator/operations/multiplication.js"></script>
+    <script src="js/calculator/operations/division.js"></script>
+    <script src="js/calculator/calculator.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
