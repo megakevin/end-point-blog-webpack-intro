@@ -1,17 +1,21 @@
 class Calculator {
     add(a, b) {
-        return a + b;
+        let operation = new Addition(a, b);
+        return operation.operate();
     }
 
     substract(a, b) {
-        return a - b;
+        let operation = new Substraction(a, b);
+        return operation.operate();
     }
 
     multiply(a, b) {
-        return a * b;
+        let operation = new Multiplicaion(a, b);
+        return operation.operate();
     }
 
     divide(a, b) {
-        return a / b;
+        let operation = new Division(a, b);
+        return operation.operate();
     }
 }
