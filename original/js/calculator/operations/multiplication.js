@@ -1,4 +1,4 @@
-class Multiplicaion extends Operation {
+class Multiplication extends Operation {
     constructor(a, b) {
         super(a, b);
     }

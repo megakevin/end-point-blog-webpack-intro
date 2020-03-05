@@ -10,7 +10,7 @@ class Calculator {
     }
 
     multiply(a, b) {
-        let operation = new Multiplicaion(a, b);
+        let operation = new Multiplication(a, b);
         return operation.operate();
     }
 
