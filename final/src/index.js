@@ -1,3 +1,5 @@
+import Calculator from "./calculator/calculator.js";
+
 class App {
     constructor() {
         this.calculator = new Calculator();

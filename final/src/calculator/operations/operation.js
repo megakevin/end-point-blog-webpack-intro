@@ -1,4 +1,4 @@
-class Operation {
+export default class Operation {
     constructor(a, b) {
         this.a = a;
         this.b = b;

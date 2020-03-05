@@ -1,4 +1,6 @@
-class Substraction extends Operation {
+import Operation from "./operation.js";
+
+export default class Substraction extends Operation {
     constructor(a, b) {
         super(a, b);
     }
