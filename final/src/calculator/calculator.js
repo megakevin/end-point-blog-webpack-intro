@@ -1,5 +1,5 @@
 import Addition from "./operations/addition.js";
-import Substraction from "./operations/substraction.js";
+import Subtraction from "./operations/subtraction.js";
 import Multiplication from "./operations/multiplication.js";
 import Division from "./operations/division.js";
 
@@ -10,7 +10,7 @@ export default class Calculator {
     }
 
     substract(a, b) {
-        let operation = new Substraction(a, b);
+        let operation = new Subtraction(a, b);
         return operation.operate();
     }
 

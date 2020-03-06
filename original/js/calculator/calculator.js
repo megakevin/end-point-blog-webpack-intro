@@ -5,7 +5,7 @@ class Calculator {
     }
 
     substract(a, b) {
-        let operation = new Substraction(a, b);
+        let operation = new Subtraction(a, b);
         return operation.operate();
     }
 

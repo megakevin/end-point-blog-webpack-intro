@@ -7,7 +7,7 @@ class App {
         this.calculateButton = document.getElementById("run_operations");
 
         this.additionResultField = document.getElementById("addition_result");
-        this.substractionResultField = document.getElementById("substraction_result");
+        this.subtractionResultField = document.getElementById("subtraction_result");
         this.multiplicationResultField = document.getElementById("multiplication_result");
         this.divisionResultField = document.getElementById("division_result");
     }
@@ -18,7 +18,7 @@ class App {
             let operand2 = parseFloat(this.operand2Field.value);
 
             this.additionResultField.value = this.calculator.add(operand1, operand2);
-            this.substractionResultField.value = this.calculator.substract(operand1, operand2);
+            this.subtractionResultField.value = this.calculator.substract(operand1, operand2);
             this.multiplicationResultField.value = this.calculator.multiply(operand1, operand2);
             this.divisionResultField.value = this.calculator.divide(operand1, operand2);
         });
