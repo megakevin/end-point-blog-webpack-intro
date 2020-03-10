@@ -1,0 +1,13 @@
+body {
+    background-color: aquamarine;
+}
+
+button, input {
+    border: grey solid 1px;
+    background-color: white;
+    padding: 5px;
+}
+
+input:hover, button:hover {
+    background-color: teal;
+}

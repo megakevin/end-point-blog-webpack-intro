@@ -1,3 +1,4 @@
+import "../css/index.css";
 import Calculator from "./calculator/calculator.js";
 
 class App {
